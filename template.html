@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>One Page Template</title>
+    <style>
+        /* 全局樣式 */
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 2rem;
+            max-width: 50rem;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin-top: 2rem;
+            border-radius: 2rem;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        /* 第一區塊 */
+        .section-1 {
+            background-color: #c0392b;
+        }
+        /* 第二區塊 */
+        .section-2 {
+            background-color: #2980b9;
+        }
+        /* 第三區塊 */
+        .section-3 {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <!-- 第一區塊 -->
+    <section class="section section-1">
+        <h1>Section 1</h1>
+        <p>This is the first section of the page.</p>
+        <a href="#section-2" class="btn">Learn More</a>
+    </section>
+    <!-- 第二區塊 -->
+    <section class="section section-2" id="section-2">
+        <h1>Section 2</h1>
+        <p>This is the second section of the page.</p>
+        <a href="#section-3" class="btn">Learn More</a>
+    </section>
+    <!-- 第三區塊 -->
+    <section class="section section-3" id="section-3">
+        <h1>Section 3</h1>
+        <p>This is the third section of the page.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+</body>
+</html>
